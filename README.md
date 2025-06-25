@@ -46,7 +46,7 @@ VALUES
 ```
 >Note:  SQLite does not support DEFAULT in VALUES (..., DEFAULT, ...). Avoid this style:
 ```sql
--- ❌ This will fail in SQLite
+-- XXXX---This will fail in SQLite
 (1003,'Rajesh jani', 'IT', 42000, DEFAULT)
 ```
 
