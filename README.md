@@ -19,6 +19,16 @@ This repository contains an SQL script designed to practice basic **data manipul
 
 ## Step 1:  Step 1: Create a Sample `employee` Table (SQLLiteStudio)
 > created `employee` table with `emp_id` primary key, used `DEFAULT` constraints in `salary` and `hire_date`.
+```sql
+CREATE TABLE employee
+(
+  emp_id INT PRIMARY KEY,
+  emp_name VARCHAR(50),
+  department VARCHAR(25),
+  salary decimal(10,2) DEFAULT 25000,
+  hire_date DATE DEFAULT CURRENT_DATE  
+);
+```
 
 
 ##  Step 2: Insert Data (with NULL and DEFAULT handling)
