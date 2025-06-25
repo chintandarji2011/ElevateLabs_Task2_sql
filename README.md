@@ -44,7 +44,7 @@ INSERT INTO employee (emp_id, emp_name, department, salary)
 VALUES 
 (1003,'Rajesh jani', 'IT', 42000);
 ```
-Note:  SQLite does not support DEFAULT in VALUES (..., DEFAULT, ...). Avoid this style:
+>Note:  SQLite does not support DEFAULT in VALUES (..., DEFAULT, ...). Avoid this style:
 ```sql
 -- ❌ This will fail in SQLite
 (1003,'Rajesh jani', 'IT', 42000, DEFAULT)
